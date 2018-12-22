@@ -1,0 +1,14 @@
+
+    
+    
+<center>
+    <h1>Leaderboard:</h1>
+    
+    {%for user in leadboard%}
+
+    {{loop.index}}.{{user}}: {{leadboard[user]}} Gold<br>
+    
+    {%endfor%}
+
+<h4><a href="/protected">User profile</a></h4>
+</center>
